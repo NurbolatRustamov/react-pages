@@ -1,0 +1,138 @@
+.parents {
+  padding-bottom: 74px;
+  padding-top: 100px;
+}
+
+.parents-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+.parents-text-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  /* padding-top: 50px; */
+}
+.parents-text-text h3 {
+  padding-bottom: 14px;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #000000;
+}
+
+.parents-text-text p {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+.parents-text-text h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  display: none;
+}
+.parents-text-img p {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #777777;
+}
+@media (max-width: 814px) {
+  .parents-text-text h4 {
+    display: block;
+  }
+  .parents-text-text p {
+    display: none;
+  }
+  .parents-text-two {
+    gap: 50px;
+  }
+}
+@media (max-width: 658px) {
+  .parents-text {
+    padding-bottom: 100px;
+    display: grid;
+  }
+  .parents-text-two {
+    display: grid;
+  }
+  .parents-text-text h3 {
+    text-align: center;
+  }
+  .parents-text-text h4 {
+    text-align: center;
+  }
+  .parents-text-img img {
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+@media (max-width: 360px) {
+  .parents-text-text h4 {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}
+.header-foot {
+  background-color: #6b6b6b;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.header-foot ul {
+  display: flex;
+  gap: 40px;
+}
+.header-foot ul li a {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+}
+.header-foot ul li a:hover {
+  color: #dacece;
+  transition: 0.4s;
+}
+@media (max-width: 500px) {
+  .header-foot ul {
+    gap: 20px;
+  }
+}
+.footer-last {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #111111;
+}
+.footer-last p {
+  padding-left: 144px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #777777;
+}
+@media (max-width: 870px) {
+  .footer-last p {
+    text-align: center;
+    padding-left: 0;
+  }
+}

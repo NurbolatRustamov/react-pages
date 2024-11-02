@@ -1,0 +1,114 @@
+.tips {
+  padding-top: 140px;
+  padding-bottom: 87px;
+}
+
+.tip-box {
+  display: flex;
+  justify-content: center;
+}
+.tips p {
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #333333;
+  padding-left: 144px;
+}
+.tip h3,
+h4 {
+  padding-left: 40px;
+}
+.tip h3 {
+  padding-bottom: 13px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #333333;
+}
+.tip h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #333333;
+}
+
+@media (max-width: 1350px) {
+  .tip-box {
+    display: grid;
+  }
+  .tips p {
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .tip {
+    padding-bottom: 40px;
+  }
+  .tip h3 {
+    text-align: center;
+    padding-left: 0;
+  }
+  .tip h4 {
+    text-align: center;
+    padding-left: 0;
+  }
+  .tip img {
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+.header-foot {
+  background-color: #6b6b6b;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.header-foot ul {
+  display: flex;
+  gap: 40px;
+}
+.header-foot ul li a {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+}
+.header-foot ul li a:hover {
+  color: #dacece;
+  transition: 0.4s;
+}
+@media (max-width: 500px) {
+  .header-foot ul {
+    gap: 20px;
+  }
+}
+.footer-last {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #111111;
+}
+.footer-last p {
+  padding-left: 144px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #777777;
+}
+@media (max-width: 870px) {
+  .footer-last p {
+    text-align: center;
+    padding-left: 0;
+  }
+}
